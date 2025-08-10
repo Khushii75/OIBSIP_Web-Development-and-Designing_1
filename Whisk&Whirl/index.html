@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whisk & Whirl Coffee Shop</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-mug-hot logo-icon"></i>
+        <div class="logo-text" style="color: aliceblue;">Whisk<span>Whirl</span></div>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+<!-- changes -->
+      <div class="nav-buttons">
+        <a href="login.html" class="btn btn-secondary">Sign In</a>
+        <a href="index.html" class="btn btn-secondary">Logout</a>
+        <a href="register.html" class="btn btn-secondary">Register</a>
+        <a href="#" class="btn btn-primary">Order Online</a>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-subtitle" style="color: goldenrod;">
+          <i class="fas fa-seedling" style="color: rgb(25, 90, 25);"></i>
+          Grown with Respect, Roasted with Love
+        </div>
+        <h1 class="hero-title">
+          Not just coffee <br /><span>but a moment of peace</span>
+        </h1>
+        <p class="hero-text">
+          Step into a space where the world slows down, and every cup brings you home.
+At Whisk&Whirl, we believe coffee is more than a drink — it’s a ritual, a pause, a feeling.
+        </p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn btn-primary">Explore Our Blends</a>
+          <a href="#locations" class="btn btn-secondary">Visit Our Cafe</a>
+        </div>
+      </div>
+      <img src="1.png" alt="Coffee cup" width="370" />
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-subtitle">Our Selection</div>
+        <h2 class="section-title">Signature Coffee Blends</h2>
+        <p class="section-desc">
+          Each batch is carefully roasted to highlight the unique characteristics of the beans.
+        </p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-img">
+            <img src="2.png" alt="ESignature Cinnamon Espresso" />
+          </div>
+          <div class="product-info">
+            <div class="product-tag">BESTSELLER</div>
+            <h3 class="product-title">Signature Cinnamon Espressoe</h3>
+            <p class="product-desc">
+              Rich caramel sweetness with deep cocoa notes and a velvety crema. Perfectly balanced acidity in a bold medium-dark roast.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">$11.07</div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="3.jpg" alt="CGourmet Mocha Cappuccino" />
+          </div>
+          <div class="product-info">
+            <h3 class="product-title">Gourmet Mocha Cappuccino</h3>
+            <p class="product-desc">
+              Silky mocha layered with hints of toasted nuts and smooth chocolate. A comforting blend that delights every sip.
+            </p>
+            <div class="product-footer">
+              <div class="product-price">$11.01</div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="4.jpg" alt="D Heartcrafted Vanilla Latte" />
+          </div>
+          <div class="product-info">
+            <div class="product-tag">NEW</div>
+            <h3 class="product-title"> Heartcrafted Vanilla Latte</h3>
+            <p class="product-desc">
+              Creamy latte art crowns this brew’s mellow body, with subtle vanilla sweetness and delicate nutty undertones.
+
+            </p>
+            <div class="product-footer">
+              <div class="product-price">$12.16</div>
+              <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="locations">
+    <div class="container">
+      <h2>Our Locations</h2>
+      <p>Visit our cafes across Portland for freshly brewed experiences.</p>
+    </div>
+  </section>
+
+  
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Reach out for wholesale, partnerships, or questions.</p>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>About Whisk&Whirl</h3>
+          <p style="color:aliceblue; margin-bottom: 20px;">
+            Where every sip tells a handcrafted story.
+          </p>
+          <div class="social-links">
+            
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#products">Coffee Blends</a></li>
+            <li><a href="#">Whisk & Whirl Guides</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Wholesale</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul class="footer-links">
+            <li><i class="fas fa-map-marker-alt"></i> 47 W 13th St, New York, NY 10011.</li>
+            <li><i class="fas fa-phone"></i> (212) 652-8975</li>
+            <li><i class="fas fa-envelope"></i> Whisk&Whirl@75gmail.com</li>
+            <li><i class="fas fa-clock"></i> Mon-Sun: 10am - 11pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        © 2025 Whisk&Whirl Coffee Roasters. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+  <script>
+ document.addEventListener("DOMContentLoaded", () => {
+  if (localStorage.getItem("isLoggedIn") !== "true") {
+    window.location.href = "login.html";
+  }
+});
+</script>
+
+</body>
+</html>
