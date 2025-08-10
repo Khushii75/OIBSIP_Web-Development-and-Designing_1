@@ -41,3 +41,6 @@ The goal of this project was to apply HTML, CSS, and JavaScript skills in buildi
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/caeb0836-a00e-4d34-828a-de5166a1116b" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f16d31ae-0f92-4345-903c-1e0c6f431714" />
+
+
