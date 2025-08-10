@@ -24,13 +24,66 @@ The goal of this project was to apply HTML, CSS, and JavaScript skills in buildi
 
 -Smooth hover effects and interactive elements
 
-🛠️ Technologies Used:
+🎯 Objective:
 
--HTML5 – structure and content
+To design and develop a responsive coffee shop website with a Login Section for user authentication, showcasing menu items, locations, and contact details.
+The project aims to apply HTML, CSS, and JavaScript skills in building a visually appealing, interactive, and user-friendly interface as part of an educational internship.
 
--CSS3 – styling, animations, responsiveness
+🛠 Steps Performed:
 
--JavaScript (ES6) – interactivity and dynamic elements
+
+1.Planning & Layout Design
+
+-Created the website wireframe and decided on the section flow (Login, Home, Menu, Locations, Contact).
+
+2.HTML Structure Development
+
+-Built semantic HTML pages (login.html, index.html) with separate sections for hero, products, locations, and footer.
+
+3.CSS Styling
+
+-Applied custom styles for typography, color palette, and coffee-themed visuals.
+
+-Implemented responsive design for mobile, tablet, and desktop views.
+
+4.JavaScript Interactivity
+
+-Added a Login Section with form validation.
+
+-Integrated hover effects and animations for product cards.
+
+5.Testing & Optimization
+
+-Verified responsive behavior and cross-browser compatibility.
+
+-Checked smooth navigation between login and main pages.
+
+⚙ Tools Used:
+
+
+1.HTML5 – Website structure
+
+2.CSS3 – Styling, responsiveness, animations
+
+3.JavaScript (ES6) – Login validation, interactivity
+
+4.VS Code – Code editor
+
+5.Git & GitHub – Version control 
+
+6.Netlify - repository hosting
+
+7.Browser DevTools – Debugging and layout testing.
+
+📌 Outcome:
+
+-Successfully built a responsive, coffee-themed website with smooth navigation.
+
+-Implemented a Login Section for secure user access before entering the site.
+
+-Improved practical knowledge in web design, responsiveness, and JavaScript DOM manipulation.
+
+-Delivered a professional, internship-ready project showcasing front-end development skills.
 
 📸 Preview:
 
